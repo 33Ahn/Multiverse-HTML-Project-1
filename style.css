@@ -12,7 +12,7 @@ header {
     justify-content: space-evenly;
     align-items: center;    
     padding: 2rem;   
-    background-color: #e6e6e6;  
+    /* background-color: #ffdab9;   */
 }
 
 header nav a {
@@ -60,14 +60,14 @@ header nav a {
 
 .section_container_last {
     width: 80vw;
-   margin: 2rem auto;
-   padding: 4rem 2rem;
-   text-align: center;
-   background-color: #de541e;
+    margin: 2rem auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #de541e;
 }
 .section_content {
-    background-color: #e6e6e6;
-    box-shadow: 1rem 1rem 2rem#e6e6e6;
+    background-color: beige;
+    box-shadow: 1rem 1rem 2rem beige;
     color: #494331;
     width: 50vw;
     height: 50vh;
@@ -76,58 +76,55 @@ header nav a {
      */
 }
 
-/* .split_container {
-    width: 90%; 
-    padding: 1rem;
-    margin: 0 auto;   
+/* ********** Bio ********** */
+#bio_title {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2rem;     
 }
 
-.split {
-    display: flex;   
-    justify-content: center;
-    width: 90rem; 
-    margin: 0 auto;         
+.bio_content_title {    
+    padding: 1.5rem;
+    text-align: center;
 }
 
-.split_image {
-    max-width: 30.66rem;
-    width: 100%;
-    display: block;
-    line-height: 0;                                 
-}
-
-.split_content {
-    text-align: center;  
+.bio_content {    
+    width: 65vw;
+    margin: 0 auto 2rem;
+    padding: 2rem;    
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #fbc4ab;
     line-height: 2rem;
-    max-width: 30.66rem;  
-    display: flex;
-    flex-direction: column;
-    align-items: space-evenly;
-    padding: 3rem;   
-    background-color: #F8DDA4;             
 }
 
-.split_content p {
-    width: 60%;
-    background-color: #D45113;
-    margin: auto;
-
+/* ********** experience ********** */
+#experience_title {
+    text-align: center;    
+    padding: 2rem;
+    font-size: 1.8rem;
 }
 
-#quotes {
-    border: 1px solid red;
-    padding: 1rem;
-    display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-between;
-    flex-wrap: wrap;
+.experience_container {
+    background-color: #f8ad9d;
+    border-radius: 5px;
+    width: 65vw;
+    margin: auto;    
 }
 
-.quote_list {
-    border: 1px solid purple;
-    padding: 1rem;
-    width: 23em;
-}  */
+.experience_content_title {
+    text-align: center;
+    font-size: 1.5rem;  
+    padding: 1.5rem;
+}
+
+.experience_content_container {
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 auto 2rem;
+}
+
 
 /* ********** portfolios ********** */
 .portfolio_item_container {
