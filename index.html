@@ -12,88 +12,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-      <div class="icon">        
-        <h1>Ahn Shields</h1>  
-      </div>      
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="bio.html">Bio</a>
-        <a href="experience.html">Experience</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <header class="header">
+        <nav class="navbar">
+            <h1>Ahn Shields</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bio.html" class="nav-link">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experience.html" class="nav-link">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolios</a>
+                </li>
+                <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>              
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
     <main> 
         <article>
-          <section id="banner">            
-            <h2>I am a passionate software engineer from Las Vegas, Nevada.</h2>            
-            <div id="banner_img">
-              <img src="" alt="">
-            </div>
-            <div>
-              <a href="contact.html"><button>Contact me</button></a>
-            </div>            
-          </section>
-          <section class="section_container">
-            <div class="section_content">
-              <h3>Mission statement</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fuga recusandae, eos voluptates atque officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus optio aperiam unde inventore voluptate nemo, earum tempora quo? Nulla.</p>
-            </div> 
-            <div class="section_content">
-              <h3>Quotes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero ut eligendi ad iusto quos.</p>
-            </div>
-          </section>
-          <section class="section_container">
-            <div class="section_content">
-              <h3>Mission statement</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fuga recusandae, eos voluptates atque officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus optio aperiam unde inventore voluptate nemo, earum tempora quo? Nulla.</p>
-            </div> 
-            <div class="section_content">
-              <h3>Quotes</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero ut eligendi ad iusto quos.</p>
-            </div>
-          </section>
-          <section class="section_container_last">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos? Nulla eaque odio perspiciatis, dolor consectetur error quisquam officia, itaque omnis minus aut cupiditate ex ullam officiis, delectus minima laboriosam?</p>
-          </section>
-
-          <!-- <article class="split_container">
-            <section class="split">
-              <div class="split_content">
-                <h3>Mission Statement</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, modi.</p>
-              </div>
-              <div class="split_image"><img src="./assets/green_field.png" alt=""></div>
+            <section id="banner">            
+                <h2>I am a passionate software engineer from Las Vegas, Nevada.</h2>            
+                <div id="banner_img">
+                    <img src="./assets/image.jpg" alt="a lady walking in a field at sunset">
+                </div>
+                <div>
+                    <a href="contact.html"><button>Contact me</button></a>
+                </div>            
             </section>
-            <section class="split">
-              <div class="split_image"><img src="./assets/yellow_tulips.png" alt=""></div>
-              <div class="split_content">
-                <h3>What defines me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea.</p>
-              </div>
+            <section class="section_container">
+                <div class="section_content">
+                <h3>Mission statement</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fuga recusandae, eos voluptates atque officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus optio aperiam unde inventore voluptate nemo, earum tempora quo? Nulla.</p>
+                </div> 
+                <div class="section_content">
+                <h3>Quotes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero ut eligendi ad iusto quos.</p>
+                </div>
             </section>
-            <section class="split">
-              <div class="split_content">
-                
-                <p>"It's always about appreciation. It pulls things in. It attracts support. Whatever we think about and thank about we bring aout. Be grateful for what you have now."</p>
-              </div>
-              <div class="split_image"><img src="./assets/mountain.png" alt=""></div>
+            <section class="section_container">
+                <div class="section_content">
+                    <h3>Mission statement</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fuga recusandae, eos voluptates atque officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus optio aperiam unde inventore voluptate nemo, earum tempora quo? Nulla.</p>
+                </div> 
+                <div class="section_content">
+                    <h3>Quotes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero ut eligendi ad iusto quos.</p>
+                </div>
             </section>
-            <section class="split">
-              <div class="split_image">
-                <img src="./assets/green_plant.png" alt="">
-              </div>
-              <div class="split_content">
-                
-                <p>"You can have whatever you want in your life, no limits. But there's one catch: You have to feel good."</p>
-              </div>
+            <section class="section_container_last">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos? Nulla eaque odio perspiciatis, dolor consectetur error quisquam officia, itaque omnis minus aut cupiditate ex ullam officiis, delectus minima laboriosam?</p>
             </section>
-          </article>
         </article>
-    </main> -->
+    </main>          
 
     <footer>
       <p>All rights Reserved</p>
