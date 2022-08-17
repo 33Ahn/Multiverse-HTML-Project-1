@@ -6,8 +6,8 @@ Introduction
 
 Why did I do this project?
 
-    This is my first project to as an apprentice at Verizon through Multiverse bootcamp.
-    As part of the Multiverse bootcamp curriculum, I wanted to use this project as a learning and growing opportunity and showcase my projects.
+This is my first project to as an apprentice at Verizon through Multiverse bootcamp.
+As part of the Multiverse bootcamp curriculum, I wanted to use this project as a learning and growing opportunity and showcase my projects.
 
 what did I build?
 
